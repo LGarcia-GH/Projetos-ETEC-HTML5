@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks</title>
+</head>
+<body>
+<!-- Título -->   
+    <h1 align="center">Testando Hyperlinks</h1>
+    <br>
+    <font color="blue">
+        <h2 align="center">|<a href="index.html"> Início </a>|<a href="produto.html"> Produto </a>|<a href="sobre.html"> Sobre </a>
+        |<a href="cadastro.html"> Cadastro </a>|</h2>
+        </font>
+<!-- Paragráfo -->
+    <p align="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam est odit harum quia, ipsam voluptatum! Dolores consequuntur corrupti alias soluta fugit! Eos autem hic quod mollitia magnam illum, accusantium ad!
+    </p>
+<!-- Links -->    
+    <h3>Outros Links</h3>
+    <ol>
+        <li>
+            <a href="https://www.google.com/?hl=pt_BR" target="_blank"><img src="/img/Logo-Google-G.png"></a>
+            <alt>Logo do Google</alt>
+        </li>
+        <li>
+            <a href="https://www.globo.com/" target="_blank"><img src="/img/rede-globo-logo-4.png"></a>
+            <alt>Logo da Globo</alt>
+        </li>
+    </ol>
+<!-- Feito Por... -->
+<hr>
+    <address><center>Desenvolvido Por Lucas Cavalcante</center></address>
+</body>
+</html>

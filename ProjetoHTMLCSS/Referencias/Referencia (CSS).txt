@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustentabilidade</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Sustentabilidade e o Futuro do Planeta</h1>
+        <p>Saiba como pequenas atitudes podem ajudar o meio ambiente</p>
+    </header>
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Sustentabilidade.html">Sustentabilidade</a></li>
+            <li><a href="/Ambiente.html">Meio Ambiente</a></li>
+            <li><a href="/Contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <!-- Conteúdo Principal com Layout -->
+    <main>
+        <!-- Conteúdo Lateral Esquerdo -->
+        <div class="cont-esquerdo">
+            <h2>Reciclagem</h2>
+            <p>Reciclar é uma das maneiras mais fáceis de contribuir para um planeta mais limpo. Separe seus resíduos adequadamente.</p>
+        </div>
+
+    <!-- Conteúdo Principal -->
+    <div class="cont-principal">
+        <h2>O que é Sustentabilidade?</h2>
+
+        <p>A Sustentabilidade pode ser definida como a capacidade de suprir as necessidades da gerações futuras de atenderem suas próprias necessidades.</p>
+
+        <p>Ela envolve a conservação do meio ambiente, o uso consciente dos recursos naturais, e o desenvolvimento econômico e social de forma equilibrada.</p>
+
+        <h2>Por que é Importante?</h2>
+
+        <p>Adotar práticas sustentáveis é fundamental para combater os problemas ambientais, como a poluição, a escassez de recursos e as mudanças climáticas. Cada pequena ação conta.</p>
+    </div>
+
+    <!-- Conteúdo Lateral Direito -->
+    <div class="cont-direito">
+
+        <h2>Economia de Água</h2>
+
+        <p>Pequenas mudanças no dia a dia, como fechar a torneira ao escovar os dentes, podem economizar litros de água por mês.</p>
+    </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy;2024 Sustentabilidade. Todos os direitos reservados.</p>
+    </footer>
+ 
+</body>
+</html>

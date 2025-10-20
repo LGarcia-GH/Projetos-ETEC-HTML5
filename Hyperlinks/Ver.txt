@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulário</title>
+</head>
+<body>
+
+    <h1>Aula com Formulário</h1>
+
+    <form action="" method="">
+<!-- Formulario de Digitação -->
+       
+        <label>Nome: </label>
+          <input type="text" name="nome" placeholder="Digite seu nome">
+        <br>
+        <br>
+
+<!-- Formulario de Senha -->
+
+        <label>Senha: </label>
+          <input type="password" name="Senha" placeholder="Digite sua senha">
+        <br>
+        <br>
+
+<!--  Formulário de Multipla escolha -->
+
+        <label>Escolha uma opção: </label><br>
+          <label><input type="radio" name="sexo" value="M" />
+          Masculino</label>
+        <br/>
+          <label><input type="radio" name="sexo" value="F" />
+          Feminino</label>
+        <br>
+
+<!-- Formulário de Checkbox -->
+        
+        <h3>Checkbox</h3>
+
+        <label>
+          <input type="checkbox" name="Interesse" value="HTML">HTML
+        </label><br>
+        <label>
+          <input type="checkbox" name="Interesse" value="CSS">CSS
+        </label><br>
+        <label>
+          <input type="checkbox" name="Interesse" value="JavaScript">JavaScript
+        </label><br>
+
+<!-- Formulário de Opções -->
+
+       <h3>Selecione</h3>
+
+       <select name="Cidade">
+          <option value="São Paulo">São Paulo
+          </option>
+          <option name="Rio de Janeiro">Rio de Janeiro
+          </option>
+          <option name="Minas Gerais">Minas Gerais
+          </option>
+          <option name="Fernandopólis">Fernandopólis
+          </option>
+       </select>
+
+<!-- Formulário de Área de Texto -->
+
+      <h3>Área de Texto</h3>
+
+      <label>Digite uma mensagem</label><br>
+       <textarea name="mensagem" rows="5" cols="30">
+       </textarea><br><br>
+       <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>

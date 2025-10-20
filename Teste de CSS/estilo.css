@@ -1,0 +1,17 @@
+/*Teste de CSS Externo*/
+
+body{
+    color: darkkhaki;
+    margin: 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    color: deeppink;
+    text-shadow: 2px 2px 2px sandybrown;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}

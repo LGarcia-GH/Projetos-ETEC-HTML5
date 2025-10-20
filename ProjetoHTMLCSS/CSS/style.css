@@ -1,0 +1,77 @@
+/* Carrosel animacao e formatacao */
+
+.carrossel {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carrossel::-webkit-scrollbar {
+    display: none;
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    animation: carrossel-a 15s linear infinite;
+}
+
+.item {
+    height: 90%;
+    width: 685px;
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+.item img {
+    width: 100%;
+}
+
+@keyframes carrossel-a {
+    from {translate: 0;}
+    to {translate: -100%}
+}
+
+.carrossel:hover .grupo {
+    animation-play-state: paused;
+}
+
+.carrossel:hover .item {
+    filter: grayscale(1);
+}
+
+.carrossel .item:hover {
+    filter: grayscale(0);
+}
+
+/* mapa da pista */
+
+.mapa {
+    position: relative;
+    z-index: 1;
+    left: 1700px;
+    top: 300px;
+    background-color: rgb(11, 11, 17);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.mapa img {
+    width: 10%;
+}
+
+.equipes {
+    position: relative;
+    left: 100px;
+    display: flex;
+    padding: 15px;
+    height: 100%;
+    width: 600px;
+    gap: 1px;
+}
+
+.equipes img {
+    width: 100%;
+}
