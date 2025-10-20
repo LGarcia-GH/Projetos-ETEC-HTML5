@@ -1,0 +1,15 @@
+.fundo-p {
+    height: 100%;
+    width: 1650px;
+    position: relative;
+    right: 20px;
+}
+
+.fundo-p img {
+    width: 100%;
+}
+
+.produtos {
+    display: flex;
+    height: 100%;
+}
