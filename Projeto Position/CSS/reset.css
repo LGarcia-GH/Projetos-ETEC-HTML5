@@ -33,6 +33,21 @@ header a {
     text-decoration: none;
 }
 
+p {
+    text-align: center;
+    z-index: 1;
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 190px;
+    color: whitesmoke;
+};
+
+.numero:visited {
+    text-decoration: none;
+    color: white;
+}
+
 footer {
     padding: 10px;
     z-index: 1;
