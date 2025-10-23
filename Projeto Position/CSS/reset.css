@@ -32,3 +32,10 @@ header li {
 header a {
     text-decoration: none;
 }
+
+footer {
+    padding: 10px;
+    z-index: 1;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

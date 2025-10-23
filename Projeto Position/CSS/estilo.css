@@ -1,6 +1,6 @@
 .fundo-p {
     z-index: -1;
-    height: 1200px;
+    height: 800px;
     width: 100%;
     position: relative;
     filter: blur(10px);
@@ -10,9 +10,41 @@
     height: 100%;
 }
 
+.baiano {
+    top: 400px;
+    left: 90%;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.baiano img {
+    height: 100%;
+}
+
+.conjunto {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+.compra {
+    height: 30%;
+    width: 30%;
+    right: 50%;
+    z-index: 1;
+}
+
+.compra img {
+    height: 100%;
+}
+
 .carrossel {
     position: absolute;
-    top: 430px;
+    top: 400px;
     width: 100%;
     display: flex;
     overflow-x: auto;
