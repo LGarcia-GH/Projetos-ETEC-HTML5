@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar/Esconder</title>
+</head>
+<body>
+    <h2>O Exercicio deve mostrar e depois esconder o texto</h2>
+
+    <button onclick="mostrarEsconder()">Monstrar/Esconder</button>
+    <p id="texto" style="display: none;">Este texto aparece e desaparece</p>
+    <script>
+        function mostrarEsconder(){
+            const texto = document.getElementById("texto");
+
+            if(texto.style.display === "none"){
+                texto.style.display = "block";
+            } else {
+                texto.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

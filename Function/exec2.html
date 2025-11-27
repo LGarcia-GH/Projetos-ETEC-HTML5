@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montrar Mensagem</title>
+</head>
+<body>
+    <h1>Monstrar a mensagem digitada</h1>
+
+    <input type="text" id="entrada" placeholder="Digite sua Mensagem">
+    <button onclick="mostrarMensagem()">Enviar</button>
+    <p id="resultado"></p>
+    <script>
+        function mostrarMensagem(){
+            let texto = document.getElementById("entrada").value;
+            document.getElementById("resultado").textContent = texto;
+        }
+    </script>
+</body>
+</html>
