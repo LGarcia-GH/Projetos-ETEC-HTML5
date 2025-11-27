@@ -8,13 +8,16 @@
 <body>
     <h2>Contador</h2>
     <button onclick="contar(numero)">Clique</button>
+    <p id="numeros"></p>
 
     <script>
         function contar(){
+            let contar = document.getElementById("numeros")
         var numero = 0
 
         if(onclick) {
             numero ++
+            alert(numero)
         }
     }
 
