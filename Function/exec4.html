@@ -7,18 +7,17 @@
 </head>
 <body>
     <h2>Contador</h2>
-    <button onclick="contar(numero)">Clique</button>
-    <p id="numeros"></p>
+    <button onclick="contar(numero)" id="botao">Clique</button>
+    <p><span id="contador"></span></p>
 
     <script>
-        function contar(){
-            let contar = document.getElementById("numeros")
-        var numero = 0
-
-        if(onclick) {
-            numero ++
-            alert(numero)
-        }
+        let numero = 0
+        document.getElementById("botao").addEventListener("click", function () {
+            numero ++;
+            document.getElementById("contador").textContent = numero
+        });
     </script>
 </body>
 </html>
+
+<!-- .addEventListener() Pega um evento con id e ação que pode ser usado para aplicar uma função -->
