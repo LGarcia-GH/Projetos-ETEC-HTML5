@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+.caixa {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto {
+    font-family: 'Bebas', Regular;
+    font-size: xx-large;
+}

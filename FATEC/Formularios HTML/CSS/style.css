@@ -1,0 +1,17 @@
+.caixaFormulario {
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 440px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.formulario {
+    color: aliceblue;
+}
+
+.abaFormulario {
+    color: black;
+}

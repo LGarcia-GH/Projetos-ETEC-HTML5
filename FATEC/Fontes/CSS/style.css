@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+body {
+    background-color:rgb(32, 32, 32);
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Bebas', Regular;
+    font-size: 100px;
+    color: whitesmoke;
+}
+
+.subTitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+#serifadas {
+    font-family: Georgia, serif;
+    font-size: large;
+    color: whitesmoke;
+}
+
+#sem_serifa {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: whitesmoke;
+}
+
+#mono {
+    font-family: 'Courier New', monospace;
+    color: whitesmoke;
+}
